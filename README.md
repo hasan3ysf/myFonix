@@ -1,3 +1,3 @@
 # myFonix
 
-This is the startup
+This is the startup project
