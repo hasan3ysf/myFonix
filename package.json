@@ -1,0 +1,29 @@
+{
+ "name": "FonixSAP",
+ "version": "1.0.0",
+ "description": "A dashboard app for Sap B1",
+ "author": "Hasan A Yousef <hasan.ajsf@gmail.com>",
+  "contributors": [{
+       "name": "Hasan A Yousef",
+       "email": "hasan.ajsf@gmail.com"
+    }],
+ "main": "index.js",
+ "repository": {
+    "type": "git",
+    "url": "https://github.com/hasan3ysf/myFonix"
+  },
+"bugs": {
+    "url": "https://github.com/hasan3ysf/myFonix/issues"
+   },
+"keywords": [
+ "SAP",
+ "Dashboard",
+ "Realtime"
+],
+ "dependencies": {     // These are the npm modules to be installed at node_modules
+     "faye-websocket": "0.11.0",
+     "tedious": "1.14.0"
+  },
+   "engine": "node 6.2.0",
+   "license": "MIT"
+}
