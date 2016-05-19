@@ -3,7 +3,7 @@
 \*/
 var  // serveHTML = require("./Modules/staticServer.js"),
      // serveAPI  = require("./Modules/apiServer.js"),
-     ess  = require("./Modules/ess.js")
+     ess  = require("./Modules/sse.js")
 
 var WebSocket = require('faye-websocket'),
     fs        = require('fs'),
