@@ -20,7 +20,7 @@
  "Dashboard",
  "Realtime"
 ],
- "dependencies": {     // These are the npm modules to be installed at node_modules
+ "dependencies": {     
      "faye-websocket": "0.11.0",
      "tedious": "1.14.0"
   },
