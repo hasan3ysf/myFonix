@@ -1,0 +1,27 @@
+{
+  "name": "B+K SAP",
+  "short_name": "B+K SAP app",
+  "version": "0.1",
+  "manifest_version": 2,
+
+  "description": "B+k SAP interaction app developed by Hasan A Yousef",
+  
+ /* "permissions": ["tab"], */
+
+  "icons": {
+    "16": "chrome/img/162.png",
+    "48": "chrome/img/482.png",
+    "128": "chrome/img/1282.png"
+  },
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  },
+  "browser_action": {
+    "default_title": "B+K SAP interaction",
+    "default_icon": "chrome/img/482.png"
+  },
+
+  "background": {
+    "scripts": [ "chrome/background.js" ]
+  }
+}
